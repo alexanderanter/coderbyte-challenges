@@ -4,9 +4,6 @@ var result2 = recursion.isEven(75);
 var result3 = recursion.isEven(-1);
 
 // Print the result to the terminal (console)
-console.log(result1);
-// → true
-console.log(result2);
-// → false
-console.log(result3);
-// → false
+console.log(result1); // → true
+console.log(result2); // → false
+console.log(result3); // → false
