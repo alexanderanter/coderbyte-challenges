@@ -1,7 +1,7 @@
 // run tests with 'npm test'
-var simpleFunc = require("./simple-function");
+var fizzy = require("./fizzbuzz");
 
 // Test the sum-function here
 
 // Print the result to the terminal (console)
-simpleFunc.simpleFunction();
+fizzy.fizzbuzz();
