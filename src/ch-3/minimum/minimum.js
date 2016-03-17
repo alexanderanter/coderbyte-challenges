@@ -1,5 +1,5 @@
 /**
- * Module for creating a functin that returns the minimum of two arguments
+ * Module for creating a function that returns the minimum of two arguments
  *
  * @author alexanderanter
  * @version 1.0.0
