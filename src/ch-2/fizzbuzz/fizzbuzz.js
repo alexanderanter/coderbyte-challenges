@@ -1,5 +1,5 @@
 /**
- * Module for looping a triangle
+ * Module for FizzBuzz exercise
  *
  * @author alexanderanter
  * @version 1.0.0
