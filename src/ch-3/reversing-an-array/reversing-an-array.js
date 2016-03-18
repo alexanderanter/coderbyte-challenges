@@ -1,5 +1,5 @@
 /**
- * Module for calculating the sum of a range
+ * Module for reversing an array
  *
  * @author alexanderanter
  * @version 1.0.0
