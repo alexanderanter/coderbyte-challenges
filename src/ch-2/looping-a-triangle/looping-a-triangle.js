@@ -7,12 +7,13 @@
 
 "use strict";
 
-
 exports.triangleLoop = function() {
-    var triangleBlocks = "#";
+    var triangleBlocks = "";
     var i = 0;
-    for (i; i < 6; i++) {
-        console.log(triangleBlocks);
+    for (i; i < 7; i++) {
         triangleBlocks += "#";
+        console.log(triangleBlocks);
+
     }
+    return triangleBlocks;
 };
