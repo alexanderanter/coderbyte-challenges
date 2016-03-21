@@ -5,8 +5,5 @@ var expect = require("chai").expect;
 
 describe("Test the module with kind values", function() {
 
-    it("Should return a #######", function(done) {
-        expect(loopy.triangleLoop()).eql("#######");
-        done();
-    });
+
 });

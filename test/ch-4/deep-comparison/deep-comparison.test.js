@@ -1,6 +1,6 @@
 "use strict";
 
-var deepComparison = require("../.././deep-comparison");
+var deepComparison = require("../../../src/ch-4/deep-comparison/deep-comparison");
 var expect = require("chai").expect;
 
 describe("Test the module with kind values", function() {

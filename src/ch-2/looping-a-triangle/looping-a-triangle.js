@@ -9,11 +9,10 @@
 
 exports.triangleLoop = function() {
     var triangleBlocks = "";
+    var finalResult = "";
     var i = 0;
     for (i; i < 7; i++) {
         triangleBlocks += "#";
         console.log(triangleBlocks);
-
     }
-    return triangleBlocks;
 };
