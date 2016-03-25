@@ -1,5 +1,5 @@
 {
-  "name": "@alexanderanter/eloquent-js",
+  "name": "@alexanderanter/coderbyte-challenges",
   "version": "1.0.0",
   "homepage": "https://code.support",
 
@@ -10,7 +10,7 @@
   ],
   "repository" :
   { "type" : "git",
-    "url" : "https://github.com/alexanderanter/eloquent-js.git"
+    "url" : "https://github.com/alexanderanter/coderbyte-challenges.git"
   },
   "engines" : { "node" : ">=0.12.0" },
   "dependencies": {},
