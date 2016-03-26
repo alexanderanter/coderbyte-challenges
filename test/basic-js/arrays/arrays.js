@@ -20,4 +20,8 @@ describe("Test the module with kind values", function() {
         expect(arrays.alphabetSoup("acbde")).eql("abcde");
         done();
     });
+    it("Should return abcde", function(done) {
+        expect(arrays.wordCount("one 22 three")).eql(3);
+        done();
+    });
 });

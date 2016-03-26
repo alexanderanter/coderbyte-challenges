@@ -46,3 +46,7 @@ exports.alphabetSoup = function(data) {
   arr.sort();
   return arr.join("");
 };
+
+exports.wordCount = function(data) {
+  return data.split(" ").length;
+};
