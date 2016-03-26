@@ -8,8 +8,12 @@ describe("Test the module with kind values", function() {
         expect(arrays.vowelCount("hello")).eql(2);
         done();
     });
-    it("Should return paragraph", function(done) {
+    it("Should return time", function(done) {
         expect(arrays.longestWord("fun&!! time")).eql("time");
+        done();
+    });
+    it("Should return paragraph", function(done) {
+        expect(arrays.longestWord("the longest word is in this paragraph is paragraph")).eql("paragraph");
         done();
     });
     it("Should return abcde", function(done) {
