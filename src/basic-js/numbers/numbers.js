@@ -20,3 +20,20 @@ exports.factorial = function(data) {
   }
   return result;
 };
+exports.simpleAdding = function(data) {
+  var result = 0;
+  	var i = 0;
+  	for (i; i < data + 1; i++) {
+    	result += i;
+    }
+  	return result;
+};
+exports.checkNums = function(num1, num2) {
+
+  if (num1 === num2) {
+     return "-1";
+  }else {
+    return (num2 > num1);//->returns true or false depending on the values
+  }
+
+};
