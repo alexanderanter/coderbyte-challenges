@@ -1,7 +1,5 @@
-var beanCount = require("./strings");
-var myBC = beanCount.countBs("BBC");
-var myChar = beanCount.countChar("kakkerlak", "k");
+var strings = require("./strings");
+var reversedString = strings.reverse("BBC");
+var myCappedSent = strings.capitalizeFirstL("BBC");
 
-// Print the result to the terminal (console)
-console.log(myBC); // →  2
-console.log(myChar); // → 4
+console.log(reversedString);
