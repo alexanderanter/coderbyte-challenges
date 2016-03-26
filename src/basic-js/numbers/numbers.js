@@ -1,5 +1,5 @@
 /**
- * Module for bean counting
+ * Module for numbers
  *
  * @author alexanderanter
  * @version 1.0.0

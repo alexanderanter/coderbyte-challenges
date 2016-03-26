@@ -1,5 +1,5 @@
 /**
- * Module for bean counting
+ * Module for string manipulation
  *
  * @author alexanderanter
  * @version 1.0.0
