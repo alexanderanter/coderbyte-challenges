@@ -11,7 +11,7 @@
 exports.arithGeo = function(data) {
   var result = '';
   var arithmetic = true;
-  var geomatric = true;
+  var geometric = true;
   var i = 0;
   var len = data.length - 1;
   var diff = Math.abs(data[0] - data[1]);
@@ -23,16 +23,18 @@ exports.arithGeo = function(data) {
       arithmetic = false;
     }
     if(data[i] * div !== data[i+1]) {
-      geomatric = false;
+      geometric = false;
     }
   }
+  
   if(arithmetic === true) {
     result = "Arithmetic";
-  }else if (geomatric === true) {
-    result = "Geomatric";
+  }else if (geometric === true) {
+    result = "Geometric";
   }else {
     result = -1;
   }
 
   return result;
+
 };

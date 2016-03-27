@@ -12,16 +12,16 @@ describe("Test the module with kind values", function() {
         expect(arithGeo.arithGeo([2,4,16,24])).eql(-1);
         done();
     });
-    it("2,6,18,54 should return Geomatric", function(done) {
-        expect(arithGeo.arithGeo([2,6,18,54])).eql("Geomatric");
+    it("2,6,18,54 should return Geometric", function(done) {
+        expect(arithGeo.arithGeo([2,6,18,54])).eql("Geometric");
         done();
     });
-    it("2,6,18,54 should return Geomatric", function(done) {
+    it("2,6,18,54 should return Geometric", function(done) {
         expect(arithGeo.arithGeo([100,200,400,1600])).eql(-1);
         done();
     });
-    it("2,6,18,54 should return Geomatric", function(done) {
-        expect(arithGeo.arithGeo([5,10,20,40,80])).eql("Geomatric");
+    it("2,6,18,54 should return Geometric", function(done) {
+        expect(arithGeo.arithGeo([5,10,20,40,80])).eql("Geometric");
         done();
     });
     // 1. When the input was (2,6,18,54) your output was incorrect.
