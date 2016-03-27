@@ -27,7 +27,7 @@ function charOccur(data){
 }
 exports.exOh = function(data) {
   var myChars = charOccur(data);
-  console.log(myChars);
+
 if(myChars['x'] === myChars['o']){
   return true;
 }else {
