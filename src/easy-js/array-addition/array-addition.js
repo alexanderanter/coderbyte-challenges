@@ -6,7 +6,7 @@
  */
 
 "use strict";
-//creates an object with a key for each chars and the value of their occurrences
+
 
 exports.arrayAddition = function(data) {
 
@@ -18,20 +18,13 @@ exports.arrayAddition = function(data) {
   for (i; i < len; i++) {
     sum = data[i];
     for (var j = 0; j < len; j++) {
-
         if(i !== j) {
-            console.log(largestNum);
-            console.log(i + j + "ok");
-
         }
         sum += data[j];
         if (largestNum === sum) {
           result = true;
         }
-
-
     }
-
   }
   return result;
 

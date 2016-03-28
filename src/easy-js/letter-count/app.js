@@ -1,0 +1,1 @@
+// var exvar = require("./nameofmodule");
