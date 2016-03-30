@@ -8,9 +8,7 @@
 "use strict";
 
 exports.divisionStringified = function(num1, num2) {
-    var result = "";
-
-    result = Math.round(num1/num2);
+    var result = Math.round(num1/num2);
     result = result.toString();
 
     var finalString = result;
