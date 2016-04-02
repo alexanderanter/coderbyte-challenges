@@ -5,23 +5,17 @@ var expect = require("chai").expect;
 
 describe("Test the module with kind values", function() {
 
-    it("12:30pm-12:00am should equal 690", function(done) {
-        expect(myApp.myModule("12:30pm-12:00am")).eql(690);
+    it("[1, 2, 3] should equal 0", function(done) {
+        expect(myApp.myModule([1, 2, 3])).eql(0);
         done();
     });
-
-    it("1:23am-1:08am should equal 1425", function(done) {
-        expect(myApp.myModule("1:23am-1:08am")).eql(1425);
+    it("[4, 4, 4, 6, 2] should equal 1", function(done) {
+        expect(myApp.myModule([4, 4, 4, 6, 2])).eql(1);
         done();
     });
-    it("1:00pm-11:00am should equal 1320", function(done) {
-        expect(myApp.myModule("1:00pm-11:00am")).eql(1320);
+    it("[5, 3, 3, 3, 1] should equal 1", function(done) {
+        expect(myApp.myModule([5, 3, 3, 3, 1])).eql(1);
         done();
     });
-    it("9:00am-10:00am should equal 60", function(done) {
-        expect(myApp.myModule("9:00am-10:00am")).eql(60);
-        done();
-    });
-
 
 });
